@@ -19,5 +19,9 @@ def linear_search(haystack: list[int], needle: int) -> bool:
         ([1, 2, 4], 3, False),
     ),
 )
-def test(haystack: list[int], needle: int, expected: bool) -> None:
+def test_linear_search(
+        haystack: list[int],
+        needle: int,
+        expected: bool,
+) -> None:
     assert linear_search(haystack, needle) == expected

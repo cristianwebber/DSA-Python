@@ -25,6 +25,6 @@ def bubble_sort(array: list[int]) -> list[int]:
 )
 def test_bubble_sort(
         breaks: list[int],
-        expected: bool,
+        expected: list[int],
 ) -> None:
     assert bubble_sort(breaks) == expected

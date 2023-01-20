@@ -34,9 +34,9 @@ def pre_order_search(head: BinaryNode) -> list[int]:
 def test_pre_order_search():
     #         1
     #       /   \
-    #      2     3
+    #      2     5
     #     / \   / \
-    #    4   5 6   7
+    #    3   4 6   7
     tree = BinaryNode(1)
     tree.left = BinaryNode(2)
     tree.left.left = BinaryNode(3)

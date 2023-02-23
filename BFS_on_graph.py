@@ -20,7 +20,7 @@ class Graph:
                 if i == needle:
                     prev[i] = curr
                     curr = i
-                    del queue
+                    queue = deque()
                     break
 
                 if visited[i]:
